@@ -1,0 +1,15 @@
+{
+  "name": "napi-rs-string-union-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "napi build --platform --no-const-enum"
+  },
+  "napi": {
+    "binaryName": "napi-rs-string-union-example"
+  },
+  "devDependencies": {
+    "@napi-rs/cli": "3.0.0-alpha.55"
+  }
+}
